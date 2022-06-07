@@ -3,6 +3,27 @@
     <head>
         <meta charset="UTF-8">
         <title>Portifólio - Vitor Brito</title>
+        <style type="text/css">
+            .perfil_container{
+                display: flex;
+                align-items: center;
+                background-color: #3E4c59;
+                border-radius: 15px;
+            }
+            .perfil_container img{
+                width: 150px;
+                margin-right: 20px;
+                margin-left: 10px;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                border-radius: 50%;
+            }
+            .descri_container{
+                margin-left: 10px;
+                margin-right: 10px;
+                color: white;
+            }
+        </style>
     </head>
     <body>
         <h4> <em>INDICE</em></h4>
@@ -23,13 +44,17 @@
                 </em>
             </li>
         </ul>
-        <h1>Vitor Brito</h1>
-        <img id="foto" src="1.png" alt="Foto de Perfil Vitor Brito" width="300px">
-        <p>
-            <em>Brasileiro, natural de Vitória ES.</em><br>
-            Apaixonado por novas tecnologias, programação e lógica, literatura e desafios<br>
-            <em><strong>Atualmente estudante de desenvolvimento Full-Stack na Trybe.</strong></em>
-        </p>
+        <div class="perfil_container">
+            <img id="foto" src="1.png" alt="Foto de Perfil Vitor Brito" width="300px">
+            <div class="descri_container">
+                <h1>Vitor Brito</h1>
+                <p>
+                    <em>Brasileiro, natural de Vitória ES.</em><br>
+                    Apaixonado por novas tecnologias, programação, lógica, fantasia e ficção-científica.<br>
+                    <em><strong>Estudante de desenvolvimento Full-Stack na Trybe</strong></em>
+                </p>
+            </div>
+        </div>
         <h4 id="habilidade">
             Habilidades
         </h4>
