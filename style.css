@@ -1,0 +1,46 @@
+header{
+    display: flexbox;
+    color: #1DB954;
+    line-height: 60px;
+    text-align: right;
+    word-spacing: 50px;
+    padding-right: 50px;
+    text-decoration: none;
+    margin-top: 50px;
+}
+body{
+    background-color: #191A19;
+    color: white;
+}
+a{
+    color: #1DB954;
+    text-decoration: none;
+}
+.perfil_container{
+    border: 3px solid red;
+    align-items: center;
+    background-color: #333333;
+    border-radius: 15px;
+    height: 500px;
+}
+.perfil_container img{
+    border: 3px solid green;
+    width: 150px;
+    margin-right: 20px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+}
+.descri_container{
+    border: 3px solid yellow;
+    display: flex;
+    color: white;
+}
+#perfil_nome{
+    margin-top: 100px;
+    border: 3px solid blue;
+}
+#descricao{
+    border: 3px solid green;
+}

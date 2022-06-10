@@ -2,64 +2,24 @@
 <html lang="pt-br">
     <head>
         <meta charset="UTF-8">
-        <title>Portifólio - Vitor Brito</title>
-        <style type="text/css">
-            body{
-                background-color: #1f2933;
-                color: white;
-            }
-            a{
-                color: white;
-            }
-            .perfil_container{
-                display: flex;
-                align-items: center;
-                background-color: #3E4c59;
-                border-radius: 15px;
-            }
-            .perfil_container img{
-                width: 150px;
-                margin-right: 20px;
-                margin-left: 10px;
-                margin-top: 10px;
-                margin-bottom: 10px;
-                border-radius: 50%;
-            }
-            .descri_container{
-                margin-left: 10px;
-                margin-right: 10px;
-                color: white;
-            }
-        </style>
+        <title>Portifólio</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
     </head>
     <body>
-        <h4> <em>INDICE</em></h4>
-        <ul>
-            <li>
-                <em>
-                    <a href="#foto">Foto</a>
-                </em>
-            </li>
-            <li>
-                <em>
-                    <a href="#habilidade">Habilidades</a>
-                </em>
-            </li>
-            <li>
-                <em>
-                    <a href="#rede">Redes</a>
-                </em>
-            </li>
-        </ul>
-        <div class="perfil_container">
-            <img id="foto" src="1.png" alt="Foto de Perfil Vitor Brito" width="300px">
+        <header>
+            <a href="#habilidade">Habilidades</a>
+            <a href="#rede">Redes</a>
+            <a href="#foto">Foto</a>
+        </header>
+        <div class="perfil_container">  
+            <h1 id="perfil_nome">Vitor Brito</h1>
             <div class="descri_container">
-                <h1>Vitor Brito</h1>
-                <p>
+                <p id="descricao">
                     <em>Brasileiro, natural de Vitória ES.</em><br>
                     Apaixonado por novas tecnologias, programação, lógica, fantasia e ficção-científica.<br>
                     <em><strong>Estudante de desenvolvimento Full-Stack na Trybe</strong></em>
                 </p>
+                <img id="foto" src="1.png" alt="Foto de Perfil Vitor Brito" width="300px">
             </div>
         </div>
         <h4 id="habilidade">
