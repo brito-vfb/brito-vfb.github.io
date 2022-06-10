@@ -1,12 +1,12 @@
 header{
     display: flexbox;
     color: #1DB954;
+    height: 70px;
     line-height: 60px;
     text-align: right;
     word-spacing: 50px;
     padding-right: 50px;
     text-decoration: none;
-    margin-top: 50px;
 }
 body{
     background-color: #191A19;
@@ -16,31 +16,33 @@ a{
     color: #1DB954;
     text-decoration: none;
 }
-.perfil_container{
-    border: 3px solid red;
-    align-items: center;
-    background-color: #333333;
-    border-radius: 15px;
-    height: 500px;
-}
-.perfil_container img{
-    border: 3px solid green;
-    width: 150px;
-    margin-right: 20px;
-    margin-left: 10px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    border-radius: 50%;
-}
-.descri_container{
-    border: 3px solid yellow;
+#perfil_main{
+    border: 3px solid purple;
+    height: calc( 100vh - 70px);
     display: flex;
-    color: white;
+}
+#perfil_container{
+    border: 3px solid red;
+    background-color: #1DB954;
+    background-color: #333333;
+    width: 500px;
+}
+#foto{
+    
+}
+#perfil_main div{
+    display: inline-block;
 }
 #perfil_nome{
-    margin-top: 100px;
     border: 3px solid blue;
 }
 #descricao{
     border: 3px solid green;
+}
+#foto_container{
+    height: 300px;
+    border: 3px solid #1DB954;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    vertical-align: middle;
 }
